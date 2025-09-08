@@ -52,15 +52,15 @@ For easy deploying you can create a symbolic link that creates a symlink at `LW_
 One the main reasons why to use an IDE in this case is to get autocompletion suggestions. For this, you will need to add LogicWorld client and server DLLs which contain the types that you want to use.
 To add this, rightclick Dependencies, 
 
-![image](https://github.com/GHXX/LogicWorld-BasicLogicWorldMod/assets/5289076/0ab3f04e-5c6c-4891-a13f-1f08101bd9c6)
+![image](https://github.com/GHXX/LogicWorld-ExampleMod/assets/5289076/0ab3f04e-5c6c-4891-a13f-1f08101bd9c6)
 
 and then right click on `Add Project Reference...` (or alternatively something that sounds similar). 
 
-![image](https://github.com/GHXX/LogicWorld-BasicLogicWorldMod/assets/5289076/21f787ff-4d11-4de3-a090-ea5c2a623a14)
+![image](https://github.com/GHXX/LogicWorld-ExampleMod/assets/5289076/21f787ff-4d11-4de3-a090-ea5c2a623a14)
 
 This will then bring up this window:
 
-![image](https://github.com/GHXX/LogicWorld-BasicLogicWorldMod/assets/5289076/a7e2384b-62f9-4546-bf48-0fffeddc8da9)
+![image](https://github.com/GHXX/LogicWorld-ExampleMod/assets/5289076/a7e2384b-62f9-4546-bf48-0fffeddc8da9)
 
 You can then click on "Browse" on the left side which may or may not list the dll you want to add (To add it you check the checkbox). If your dll is not listed (which is the case very likely), you want to click `Browse...` on the bottom and then simply select it from your LogicWorld installation directory.
 Due to the fact that the csproj already has a few references defined (which may be invalid, depending on your directory locations), you may want to remove these pre-existing ones.
