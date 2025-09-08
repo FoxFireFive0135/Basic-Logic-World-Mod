@@ -1,0 +1,23 @@
+NAND:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                scale: (1, 1, 1)
+                position: (0, 0, 0)
+                color: FC5E03
+        inputs:
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicCode: FoxFireFive_BasicLogicWorldMod.Server.NandGate
+    placingRules:
+        gridPlacingDimensions: (1, 1)
